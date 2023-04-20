@@ -26,6 +26,7 @@ public class Main {
         System.out.println("Gib einen zweiten Integer-Wert ein: ");
         int y = scanner.nextInt();
 
+
         System.out.println(addition(x,y));
         System.out.println(addition1(x,y));
         System.out.println("Ist einer der int Werte größer als 100 ? \n - " +
