@@ -19,13 +19,11 @@ public class Main {
 //        }
 
 
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Gib einen Integer-Wert ein: ");
         int x = scanner.nextInt();
         System.out.println("Gib einen zweiten Integer-Wert ein: ");
         int y = scanner.nextInt();
-
 
         System.out.println(addition(x,y));
         System.out.println(addition1(x,y));
