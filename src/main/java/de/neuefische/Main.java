@@ -75,7 +75,7 @@ public class Main {
             return "buzz";
         }
         else {
-            return "" + input;
+            return String.valueOf(input);
         }
     }
 
